@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class SplitArray
 {
+    // copyOfRange().,
     static void splitArray(int[] arr)
     {
         System.out.println("\n Original Array given:"+ Arrays.toString(arr));
