@@ -8,6 +8,7 @@ public class SplitArray
     {
         System.out.println("\n Original Array given:"+ Arrays.toString(arr));
         int[] subArray1 = Arrays.copyOfRange(arr,0,4);
+        System.out.println("\n Sub Array:"+Arrays.toString(subArray1));
     }
     public static void main(String[] args)
     {
