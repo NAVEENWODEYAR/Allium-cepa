@@ -10,7 +10,7 @@ public class AlliumCepaApplication
 	public static void main(String[] args)
 	{
 		SpringApplication.run(AlliumCepaApplication.class, args);
-		System.out.println("\n Allium Cepa.,");
+		System.out.println("\n Allium Cepa,");
 	}
 
 }
