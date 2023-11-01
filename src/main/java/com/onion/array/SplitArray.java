@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SplitArray
 {
-    // copyOfRange().,
+    // copyOfRange() - to obtain subArray's from the Original Array.,
     static void splitArray(int[] arr)
     {
         System.out.println("\n Original Array given:"+ Arrays.toString(arr));
