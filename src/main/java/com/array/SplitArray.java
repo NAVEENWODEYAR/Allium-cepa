@@ -15,6 +15,6 @@ public class SplitArray
     public static void main(String[] args)
     {
         System.out.println("\n Program to obtain subArray's from the original Array");
-        splitArray(new int[]{1,2,3,4,5,6,7,8,9});
+        splitArray(new int[]{1,2,3,4,0,5,6,7,8,9});
     }
 }
