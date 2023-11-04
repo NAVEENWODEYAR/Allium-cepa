@@ -1,4 +1,4 @@
-# PROD-Environment configurations.,
+# PROD : Live Environment (End users can access the application) configurations.,
 
 server:
   port: 8762
