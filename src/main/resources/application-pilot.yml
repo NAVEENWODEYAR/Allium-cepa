@@ -1,4 +1,4 @@
 # PILOT-Environment - pre production environment,
 
 server:
-  port: 8762
+  port: 8761
