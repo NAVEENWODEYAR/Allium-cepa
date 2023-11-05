@@ -9,6 +9,6 @@ public class WelcomeController
     @GetMapping
     public String greetMsg()
     {
-        return "Welcome to the SpringBoot App,";
+        return "Welcome to the SpringBoot App(Docker Image)";
     }
 }
