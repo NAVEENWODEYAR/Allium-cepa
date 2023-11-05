@@ -4,8 +4,10 @@ FROM openjdk:17
 
 RUN mkdir /usr/app/
 
-COPY target /Allium_Cepa_App.jar /usr/app/
+COPY target/Allium_Cepa_App.jar /usr/app/
 
 WORKDIR /usr/dir/
 
-ENTRYPOINT["java","-jar","Allium_Cepa_App.jar"]
+#ENTRYPOINT[ "java","-jar","Allium_Cepa_App.jar" ]
+
+ENTRYPOINT [ "java","-jar","Allium_Cepa_App.jar" ]
