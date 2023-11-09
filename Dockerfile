@@ -1,4 +1,4 @@
-# Docker file : Instructions to create the docker image,
+# Docker file : Instructions(bluePrint) to create the docker image,
 
 FROM openjdk:17
 
