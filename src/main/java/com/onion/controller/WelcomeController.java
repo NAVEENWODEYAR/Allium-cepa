@@ -14,4 +14,10 @@ public class WelcomeController
         log.info("Logging");
         return "Welcome to the SpringBoot App(Docker Image)";
     }
+
+    @GetMapping("/get")
+    public void textMsg()
+    {
+        System.out.println("\n GetRequest,");
+    }
 }
